@@ -5,35 +5,132 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evènements asso les cousins lumières</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link href="style-events.css" rel="stylesheet">
 </head>
-<body>
-    <img src="photos/photo-festival-cannes.jfif">
-    <h1>Nos évènements passés et à venir</h1>
-    <h2>Les soirées à venir</h2>
-    <ul>
-        <li>
-            Soirée cinéma coréen : projection des films "Old boy" et "Parasites" suivies d'un débat 
-            sur l'évolution du cinéma coréen et de sa nouvelle vague. 
-        </li>
-        <li>
-            Soirée cinéma muet : projection des films "The kid" et "The artist" suivies d'un débat 
-            sur les émotions retranscrites dans le cinéma muet.
-        </li>
-    </ul>
+<body class="container">
+    <div
+     class="modal"
+     tabindex="-1"
+     role="dialog"
+     id="bookingConfirm">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Confirmation de votre venue</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Confirmez-vous votre présence à la soirée?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Annuler</button>
+                    <button type="button" class="btn btn-primary">Oui, je confirme</button>
+                </div>
+            </div>
+            
+        </div>
 
-    <h2>Nos précédentes soirées</h2>
-    <ul>
-        <li>
-            Notre soirée films d'animation a battu des records d'affluence avec la projection de 
-            "Toy story" et "En avant" , suivie du débat sur les nouveaux codes du dessin animé.
-        </li>
-        <li>
-            Un peu plus tôt dans le mois , nous avons organisé une soirée sur le thème du polar avec 
-            la projection des films "Usual suspects" et "La isla minima" , suivie d'un débat qui
-            nous a permis de comparer les polar du XXe siécle et ceux du XXIe siécle.
-        </li>
-    </ul>
-    <img src="photos/photo-festival-venise.jfif">
+    </div>
+    <header class="row">
+        <img src="photos/photo-banniere-accueil.png" alt="logo" class="col-12" >
+        
+       
+            <nav class="col-10" aria-label="breadcrumb">
+                <ol class="breadcrumb ">
+                    <li class="breadcrumb-item"><a href="Accueil-asso.html">Accueil</a></li>
+                    <li class="breadcrumb-item"><a href="Equipe-asso.html">Notre équipe</a></li>
+                    <li class="breadcrumb-item"><a href="contact-asso.html">Nous contacter</a></li>
+                    <li class="breadcrumb-item" aria-current="active">Nos évènements</li>
+                </ol>
+            </nav>
+
+       
+        
+        <h1 class="col-12">Nos évènements </h1>
+    </header>
     
+   <main class="container">
+        <h2 class="row">Planning des soirées à venir :</h2>
+        <div class="row">
+            <table class="table">
+                <thead>
+                    <tr class="table-primary">
+                        <th>Date</th>
+                        <th>Thème de la soirée</th>
+                        <th>Débat</th>
+                        <th>Places réservées</th>
+                        <th>Inscription</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>17/02</td>
+                        <td>Cinéma coréen</td>
+                        <td>Oui: les nouveaux codes du cinéma asiatique</td>
+                        <td>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="50">40 </div>
+                            </div>
+                         </td>  
+                        <td><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#bookingConfirm">Je participe</button></td>
+                    </tr>
+                    <tr>
+                        <td>24/02</td>
+                        <td>Cinéma muet</td>
+                        <td>Oui : ressentir leurs émotions sans les mots</td>
+                        <td>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar bg-primary" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="50">25  </div>
+                            </div>
+                        </td>
+                        <td><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#bookingConfirm">Je participe</button></td>
+                    </tr>
+                    <tr>
+                        <td>05/03</td>
+                        <td>Soirée polar</td>
+                        <td>Oui : comparaison entre XXe siècle et XXIe siècle</td>
+                        <td>
+                            <div class="progress">
+                                <div class="progress-bar progress-barbg-primary" role="progressbar" style="width:30%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="50">15 </div>
+                            </div>
+                        </td>
+                        <td><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#bookingConfirm">Je participe</button></td>
+                    </tr>
+                    <tr>
+                        <td>12/03</td>
+                        <td>Soirée film d'animation</td>
+                        <td>Non</td>
+                        <td>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar bg-primary" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="50">10  </div>
+                            </div>
+                        </td>
+                        <td><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#bookingConfirm">Je participe</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+   </main>
+    
+       
+    <footer class="container" >
+        <div class="row">
+            <img src="photos/photo-festival-cannes.jfif" alt="photo-cannes" class="cannes col-7 rounded-pill">
+            <p class="col-4 " >Association "Les Cousins Lumières", association à but non-lucratif.<br>
+            Adresse : 7 avenue des frères lumières, 77700 Ville Lumière.<br>
+            copyright@zorro-est-arrivé<br>
+            <i>*La tenue des soirées ne peut être assurée en ce moment, compte tenu des conditions sanitaires.</i>
+            </p>
+        </div>
+            
+    </footer>
+   
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
 </body>
 </html>
