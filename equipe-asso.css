@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+header img {
+    width: 100%;
+    
+  
+}
+footer img {
+    width: 100%;
+    
+}
+h1{
+    text-align: center;
+    color: bisque;
+    text-decoration: underline purple;
+}
+body{
+    background: linear-gradient(to bottom right, aqua,red);
+    font-family: 'PT Sans', sans-serif;
+}
+.card{
+    box-shadow: 10px 5px 5px black;
+}
+.row{
+    margin-bottom: 50px;
+}
+footer>img{
+    position: relative;
+}
+.texte{
+    font-size:larger;
+    position:absolute;
+    bottom: 0;
+    left: 400px;
+}
