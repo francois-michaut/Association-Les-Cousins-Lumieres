@@ -13,96 +13,147 @@
                         <!--Bannière-->
 
     <header>
+        <div class="container">
         
-        <div class="bandeau">
-            <img src="photos/banniere-header.jpg">
-        </div>
-        <div class="logo-asso">
-            <img src="photos/Bandeau-header.jpg">
-        </div>
-    </header>
-        <h1>Club de cinéma "Les Cousins Lumières"</h1>
-
-                        <!--Menu de navigation-->
-    <div class="container-fluid">
+            <div class="row">
+                <div class=" col-12">
+                    <img src="photos/photo-banniere-accueil.png" alt="logo en banniere" class="img-banniere">
+                </div>
+            </div>
         <div class="row">
-             <nav class="col-2">
-                <p><h2>Menu</h2></p>
-                <ul class="list-unstyled">
-                    <li><a href="" class="btn btn-primary active">Accueil</a></li>
-                    <li><a href="Equipe-asso.html" class="btn btn-secondary">Notre équipe</a></li>
-                    <li><a href="contact-asso.html" class="btn btn-primary">Nous contacter</a></li>
-                    <li><a href="events-asso.html" class="btn btn-secondary">Evenements</a></li>
-                </ul>
-            </nav>    
-                        <!--Message d'accueil-->
-            <div class="col-8">
-                <h2>Il était une fois....</h2>
-                <p>À toi l'amoureux(se) du 7e art<br>
+            <div class="col-12">
+                <nav class=" navbar navbar-expand-sm navbar-dark bg-dark">
+                    <a class="navbar-brand" href="Accueil-asso.html">Accueil Asso Les Cousins Lumières</a>
+                        <div class="collapse navbar-collapse">
+                            <ul class=" navbar-nav mr-auto">
+                                <li class="nav-item"><a href="Accueil-asso.html" class="nav-link">Accueil</a></li>
+                                <li class="nav-item"><a href="Equipe-asso.html" class="nav-link ">Notre équipe</a></li>
+                                <li class="nav-item"><a href="contact-asso.html" class="nav-link">Nous contacter</a></li>
+                                <li class="nav-item"><a href="events-asso.html" class="nav-link ">Evènements</a></li>
+                            </ul>
+                        </div>
+                 </nav>   
+            </div>
+        </div>   
+    </header>                                               
+    
+                                        <!--Message d'accueil-->
+    <main class="container">
+        <h1>Il était une fois....</h1>
+        <div class="row justify-content-center">
+            <div class="col-9">
+                <img src="photos/Logo-clap.jfif" class="logo-clap rounded">
+                <p>À toi l'amoureux(se) du<strong>7e art</strong><br>
                     Toi qui as toujours rêvé d'écrire le scénario du prochain "Usual Suspects",ou peut-être
                     diriger tes propres acteurs et réussir à leur extirper les plus belles émotions;
-                    ou plus simplement discuter avec des gens passionnés comme toi par le ...Cinéma.<br>
-                    alors l'association "LES COUSINS LUMIERES"  te souhaite la bienvenue!!
-                    <img src="photos/Logo-clap.jfif" class="logo-clap">
+                    ou plus simplement discuter avec des gens passionnés comme toi par le ...<strong>Cinéma</strong>.<br>
+                    alors l'association <strong><i>"LES COUSINS LUMIERES" </i></strong>  te souhaite la bienvenue!!
                      <ul> Tu trouveras ici tout ce qui peut avoir trait à ta passion:
                         <li>plusieurs ateliers ou cours sur les différents métiers du cinéma</li>
                         <li>des soirées à thème , souvent organisée autour de la projection d'une ou deux oeuvres qui est suivie généralement
-                            d'un débat</li>
+                                d'un débat</li>
                         <li>...et bien sûr, tout un tas de passionnés comme toi avec qui échanger</li>
-                </ul>
-               
-                
-                </p>
+                    </ul>
+                 </p>
             </div>
         </div>
+    </main>                    
+           
+        
      
 
-                        <!-- les ateliers-->
+                                    <!-- les ateliers-->
 
-        <h2>Nos prochains ateliers</h2>
-        
-            <ul class="row list-unstyled">
-                <li class="col-4 card"><img src="photos/machine-a-ecrire.jfif" class="rounded" >Ecriture de scénario</li>
-                <li class="col-4 card"><img src="photos/montage-video.jfif" class="rounded"> Initiation au montage vidéo</li>
-                <li class="col-4 card"><img src="photos/actor-studio.jfif"class="rounded"> Atelier de comédie</li>
-            </ul>
-        
-                        <!--prochains évènements-->
-        
-        <h2>Nos prochains évènements</h2>
-        <h3>Soirée cinéma coréen</h3>
-        
+       
+        <section class="container">
             <div class="row">
-                <img src="photos/cinema-coree.jfif " class="col-4 ">
-                <p class="col-8 ">Avec à l'affiche le film "Old Boy" de Park Chan-wook, Grand prix du Festival de Canns 2004,
-                    suivi de "Parasites" de Bong Joon Ho, palme d'or 2019 au Festival de Cannes.<br>
-                    Nous finirons cette soirée par une discussion autour du thème :"La corée du sud,nouvel eldorado du cinéma asiatique?"
-                    <img src="photos/photo-oldboy.jfif" >
-                    <img src="photos/photo-parasites.jfif" >
-                </p>
+                <h2 class="col-12">Nos prochains ateliers</h2>
+                    <div class="col-4">
+                        <div class="card bg-success">
+                        <img src="photos/machine-a-ecrire.jfif" class="rounded" >
+                        <div class="body">
+                            <h3 class="title">Atelier écriture</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card bg-danger">
+                        <img src="photos/montage-video.jfif" class="rounded">
+                        <div class="body">
+                            <h3 class="card-title">Initiation au montage vidéo </h3>
+                        </div>
+                    </div>
+                   
+                    
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="photos/actor-studio.jfif" class="rounded">
+                        <div class="body">
+                            <h3 class="card-title">Atelier de comédie</h3>
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
-            <h3>Soirée cinéma muet</h3>
-            <div class="row">
-                <img src="photos/cinema-muet.jfif" class="col-4">
-                <p class="col-8">Avec à l'affiche le film "The kid" de Charlie Chaplin, suivi de "The Artist" de Michel Hazanavicius,
+        </section>
+            
+        
+        
+                                     <!--prochains évènements-->
+        <section class="container ">
+            <div class="row justify-content-around">
+                <h2 class="col-12">Nos prochains évènements</h2>
+            
+            
+                <div class="col-6">
+                    <h3>Soirée cinéma coréen:</h3>
+                    <p >Avec à l'affiche le film "Old Boy" de Park Chan-wook, Grand prix du Festival de Canns 2004,
+                        suivi de "Parasites" de Bong Joon Ho, palme d'or 2019 au Festival de Cannes.<br>
+                        Nous finirons cette soirée par une discussion autour du thème :"La corée du sud, nouvel eldorado du cinéma asiatique?"
+                    </p>
+                </div>
+                <div class="col-6">
+                    <img src="photos/cinema-coree.jfif ">
+                    <img src="photos/photo-parasites.jfif">
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-6">
+                    <h3>Soirée cinéma muet:</h3>
+                    <p class="col-8">Avec à l'affiche le film "The kid" de Charlie Chaplin, suivi de "The Artist" de Michel Hazanavicius,
                         oscar du meilleur film 2012.<br>
                         Nous continuerons cette soirée avec le débat: "Muet ou parlant , comment ressentir leurs émotions".
-                    <img src="photos/photo-thekid.jfif">
-                    <img src="photos/photo-theartist.jfif">
-                </p>
+                    </p>
+                </div>
+                <div class="col-6">
+                        <img src="photos/cinema-muet.jfif">
+                        <img src="photos/photo-theartist.jfif">
+                </div>
             </div>
+            <p class="excuses">*En raison des conditions sanitaires actuelles , nos soirées et nos ateliers sont pour le moment annulés.</p>
+        </section>
         
-
-    
-                        <!--Footer-->
-                        
-    <footer>
-        <img src="photos/photo-footer.jfif">
+                                    <!--Footer--> 
+    <footer class="container" >
+        <div class="row justify-content-center bas-de-page">
+            
+                <img src="photos/photo-footer.jfif" class="col-10 rounded-pill" >
+                <p class="p-footer">
+                    Si vous souhaitez nous contacter,<a href="contact-asso.html"> cliquez ici</a><br>
+                    vous pouvez également nous rendre visite au:<br>
+                    7 avenue des frères lumières, 77700 Ville Lumière.
+                </p>
+                
+        </div>
+       
     </footer>
 
     
     
-   </div>
-
-    </body>
+   
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+</body>
 </html>
