@@ -24,6 +24,11 @@ h2{
 footer >p{
    color: rgb(20, 14, 14);  
 }
+@media  screen and (max-width:1000px) {
+    .cannes{
+        display: none;
+    }
+}
 .cannes{
     height: 500px;
 }

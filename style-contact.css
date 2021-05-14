@@ -5,6 +5,7 @@ h1{
     text-decoration: underline;
     color: rgb(104, 13, 55);
     margin: 20px;
+
 }
 body{
    background:linear-gradient(to bottom left ,aqua ,red) ;
@@ -24,6 +25,7 @@ body{
 }
 .img-banniere{
     width: 100%;
+    box-shadow: 10px 10px 15px rgb(37, 35, 35);
 }
 .row{
     margin-right: 10em;
