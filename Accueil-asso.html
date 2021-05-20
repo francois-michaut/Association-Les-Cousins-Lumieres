@@ -7,24 +7,16 @@
     <title>Association Les cousins Lumières</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <link href="style-accueil.css" rel="stylesheet">
+     <link href="style.css" rel="stylesheet">
 </head>
 <body>
                         <!--Bannière-->
-
-    <header>
-        <div class="container">
-        
-            <div class="row">
-                <div class=" col-12">
-                    <img src="photos/photo-banniere-accueil.png" alt="logo en banniere" class="img-banniere">
-                </div>
-            </div>
-        <div class="row">
-            <div class="col-12">
-                <nav class=" navbar navbar-expand-md navbar-dark bg-dark">
-                    <a class="navbar-brand" href="Accueil-asso.html">Les Cousins Lumières</a>
-                    <button
+     <div class="container">
+         <header class="row ">
+            <img src="photos/photo-banniere-accueil.png" alt="logo en banniere" class="img-banniere col-12">
+            <nav class=" navbar  navbar-expand-md navbar-dark bg-dark">
+                <a class="navbar-brand" href="Accueil-asso.html">Les Cousins Lumières</a>
+                <button
                     type="button"
                     class="navbar-toggler"
                     data-toggle="collapse"
@@ -33,21 +25,19 @@
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                   >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
                     <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
                   </svg>
                 </button>
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul class=" navbar-nav">
+                            <ul class=" navbar-nav ">
                                 <li class="nav-item"><a href="Accueil-asso.html" class="nav-link">Accueil</a></li>
                                 <li class="nav-item"><a href="Equipe-asso.html" class="nav-link ">Notre équipe</a></li>
                                 <li class="nav-item"><a href="contact-asso.html" class="nav-link">Nous contacter</a></li>
                                 <li class="nav-item"><a href="events-asso.html" class="nav-link ">Evènements</a></li>
                             </ul>
                         </div>
-                 </nav>   
-            </div>
-        </div>   
+                 </nav>     
     </header>                                               
     
                                         <!--Message d'accueil-->
@@ -55,7 +45,7 @@
         <h1>Il était une fois....</h1>
         <div class="row justify-content-center">
             <div class="col-9">
-                <img src="photos/Logo-clap.jfif" class="logo-clap rounded">
+                <img src="photos/Logo-clap.jfif" class=" d-none d-md-block logo-clap rounded">
                 <p>À toi l'amoureux(se) du<strong>7e art</strong><br>
                     Toi qui as toujours rêvé d'écrire le scénario du prochain "Usual Suspects",ou peut-être
                     diriger tes propres acteurs et réussir à leur extirper les plus belles émotions;
@@ -82,15 +72,15 @@
             <div class="row justify-content-around">
                 <h2 class="col-12">Nos prochains ateliers</h2>
                     <div class="col-md-4">
-                        <div class="card bg-success">
+                        <div class="card bg-success m-4">
                             <img src="photos/machine-a-ecrire.jfif" class="rounded" >
                         <div class="body">
-                            <h3 class="title">Atelier écriture</h3>
+                            <h3 class="title ">Atelier écriture</h3>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card bg-danger">
+                    <div class="card bg-danger m-4">
                         <img src="photos/montage-video.jfif" class="rounded">
                         <div class="body">
                             <h3 class="card-title">Initiation au montage vidéo </h3>
@@ -100,7 +90,7 @@
                     
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card m-4 bg-info">
                         <img src="photos/actor-studio.jfif" class="rounded">
                         <div class="body">
                             <h3 class="card-title">Atelier de comédie</h3>
@@ -127,8 +117,8 @@
                     </p>
                 </div>
                 <div class="col-6">
-                    <img src="photos/cinema-coree.jfif " alt="cinema coréen" class="img-fluid img-thumbnail">
-                    <img src="photos/photo-parasites.jfif" class="img-fluid img-thumbnail">
+                    <img src="photos/cinema-coree.jfif " alt="cinema coréen" class="img-fluid img-thumbnail m-4">
+                    <img src="photos/photo-parasites.jfif" class="img-fluid img-thumbnail m-6">
                 </div>
             </div>
             <div class="row ">
@@ -140,8 +130,8 @@
                     </p>
                 </div>
                 <div class="col-6">
-                        <img src="photos/cinema-muet.jfif" class="img-fluid img-thumbnail">
-                        <img src="photos/photo-theartist.jfif" class="img-fluid img-thumbnail">
+                        <img src="photos/cinema-muet.jfif" class="img-fluid img-thumbnail m-4">
+                        <img src="photos/photo-theartist.jfif" class="img-fluid img-thumbnail m-6">
                 </div>
             </div>
             <p class="excuses">*En raison des conditions sanitaires actuelles , nos soirées et nos ateliers sont pour le moment annulés.</p>
@@ -151,7 +141,7 @@
     <footer class="container" >
         <div class="row justify-content-center bas-de-page">
             
-                <img src="photos/photo-footer.jfif" class="col-10 rounded-pill img-fluid" >
+                <img src="photos/photo-footer.jfif" class="col-10 w-50 rounded-pill img-fluid" >
                 <p class="p-footer">
                     Si vous souhaitez nous contacter,<a href="contact-asso.html"> cliquez ici</a><br>
                     vous pouvez également nous rendre visite au:<br>

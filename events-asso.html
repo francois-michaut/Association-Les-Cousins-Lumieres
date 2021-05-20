@@ -7,9 +7,9 @@
     <title>Evènements asso les cousins lumières</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <link href="style-events.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
-<body class="container">
+<body>
     <div
      class="modal"
      tabindex="-1"
@@ -35,28 +35,31 @@
         </div>
 
     </div>
-    <header class="row">
-        <img src="photos/photo-banniere-accueil.png" alt="logo" class="col-12" >
+    <div class="container">
+        <header class="row">
+            <img src="photos/photo-banniere-accueil.png" alt="logo" class="col-12 " >
+            
+           
+                <nav class="col-12" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="Accueil-asso.html">Accueil</a></li>
+                        <li class="breadcrumb-item"><a href="Equipe-asso.html">Notre équipe</a></li>
+                        <li class="breadcrumb-item"><a href="contact-asso.html">Nous contacter</a></li>
+                        <li class="breadcrumb-item" aria-current="active">Nos évènements</li>
+                    </ol>
+                </nav>
+    
+           
+            
+            <h1 class="col-12">Nos évènements </h1>
+        </header>
         
-       
-            <nav class="col-10" aria-label="breadcrumb">
-                <ol class="breadcrumb ">
-                    <li class="breadcrumb-item"><a href="Accueil-asso.html">Accueil</a></li>
-                    <li class="breadcrumb-item"><a href="Equipe-asso.html">Notre équipe</a></li>
-                    <li class="breadcrumb-item"><a href="contact-asso.html">Nous contacter</a></li>
-                    <li class="breadcrumb-item" aria-current="active">Nos évènements</li>
-                </ol>
-            </nav>
-
-       
-        
-        <h1 class="col-12">Nos évènements </h1>
-    </header>
+    </div>
     
    <main class="container">
-        <h2 class="row">Planning des soirées à venir :</h2>
-        <div class="row">
-            <table class="table">
+        <h2 class="row justify-content-center">Planning des soirées à venir :</h2>
+        <div class="row justify-content-center">
+            <table class="table  col-1 col-md-10">
                 <thead>
                     <tr class="table-primary">
                         <th>Date</th>
@@ -120,7 +123,7 @@
     <footer class="container" >
         <div class="row">
             <img src="photos/photo-festival-cannes.jfif" alt="photo-cannes" class="cannes col-lg-7 rounded-pill  img-fluid">
-            <p class="col-lg-4 col-12 " >Association "Les Cousins Lumières", association à but non-lucratif.<br>
+            <p class="col-lg-4 col-12 align-self-end" >Association "Les Cousins Lumières", association à but non-lucratif.<br>
             Adresse : 7 avenue des frères lumières, 77700 Ville Lumière.<br>
             copyright@zorro-est-arrivé<br>
             <i>*La tenue des soirées ne peut être assurée en ce moment, compte tenu des conditions sanitaires.</i>
