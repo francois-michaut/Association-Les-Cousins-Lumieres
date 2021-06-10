@@ -15,8 +15,8 @@
             <img src="photos/photo-banniere-accueil.png" alt="logo" class="col-12">
                     <nav class="col-12" aria-current="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="Accueil-asso.html">Accueil</a></li>
-                            <li class="breadcrumb-item"><a href="Equipe-asso.html">Notre équipe</a></li>
+                            <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+                            <li class="breadcrumb-item"><a href="equipe-asso.html">Notre équipe</a></li>
                             <li class="breadcrumb-item"><a href="events-asso.html">Evènements</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Nous contacter</li>
                         </ol>
@@ -33,7 +33,8 @@
             <div class="col-6">
                 <p>
                     Vous souhaitez nous contacter pour obtenir des renseignements , vous inscrire 
-                    à la newsletter ou adhérer au club?<br>
+                    à la newsletter, ou adhérer au club et profiter ainsi de nos différentes activités?<br>
+                    <br>
                     Veuillez remplir ce formulaire:
                 </p>
                     <form action="contact.php" method="post">
@@ -42,15 +43,22 @@
                             <input type="text" id="familyname" class="form-control" placeholder="Dupont">
                         </div>
                         <div class="form-group">
-                            <label for="firstname">¨Prénom</label>
+                            <label for="firstname">Prénom</label>
                             <input type="text" id="firstname"  class="form-control" placeholder="Guillaume">
                         </div>
                         <div class="form-group">
                             <label for="email">Votre adresse mail</label>
                             <input type="email" id="email"  class="form-control" placeholder="guillaume@dupont.fr">
                         </div>
+                        <div class="form-group m-2">
+                            <label for="newsletter">Je souhaite m'inscrire à la newsletter :</label>
+                            <input type="radio" id="oui" name="option-radio" value="oui" >
+                             <label for="opt1">Oui</label>
+                             <input type="radio" id="non" name="option-radio" value="non" >
+                             <label for="opt1">Non</label>
+                        </div>
                       <div>
-                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                        <button type="submit" class="btn btn-primary m-2">Envoyer</button>
                       </div>
                                 
                         
@@ -79,7 +87,7 @@
                 réalisateur Jean-Pierre Jeunet qui nous avait fait
                 la gentillesse de venir nous voir le mois <br>
                 dernier.<br>
-                 <audio controls>
+                 <audio controls class="col-md-5">
                     <source src="podcast-interview.mp3" type="audio/mpeg">
                     <p>Si votre navigateur ne prend pas en charge l'audio ,voici un <a href="podcast-interview.mp3">lien vers le fichier audio</a> pour le télécharger</p>
                  </audio>
