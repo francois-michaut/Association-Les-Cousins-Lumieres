@@ -1,7 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-body{
+ body{
     font-family:'PT Sans', sans-serif ;
     background: linear-gradient(to bottom right, rgb(51, 50, 50) ,white);
+    font-size: 10px;
+    
+}
+@media screen and (min-width:578px) {
+    body{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width:768px) {
+    body{
+        font-size: 18px;
+    }
 }
 h1{
     text-align: center;
@@ -28,4 +40,7 @@ h2{
 }
 .card h2{
     text-decoration: underline rgb(139, 10, 49);
+}
+audio{
+    width:75%
 }
